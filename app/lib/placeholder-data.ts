@@ -46,6 +46,12 @@ const customers = [
     email: 'balazs@orban.com',
     image_url: '/customers/balazs-orban.png',
   },
+  {
+    id: 'CC27C14A-f784-4157-A011-F8D2EF4E0A85',
+    name: 'Lyosha Macron',
+    email: 'macron@lyosha.com',
+    image_url: '/customers/balazs-orban.png',
+  },
 ];
 
 const invoices = [
@@ -127,6 +133,12 @@ const invoices = [
     status: 'paid',
     date: '2022-06-05',
   },
+  // {
+  //   customer_id: customers[6].id,
+  //   amount: 100500,
+  //   status: 'paid',
+  //   date: '2022-06-05',
+  // },
 ];
 
 const revenue = [
